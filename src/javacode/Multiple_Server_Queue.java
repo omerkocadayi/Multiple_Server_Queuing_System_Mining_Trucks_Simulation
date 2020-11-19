@@ -55,10 +55,12 @@ public class Multiple_Server_Queue{
 		}
 		
 		
-		System.out.println("\n\nReport for server 1:\n--------------------\n");
+		System.out.println("\n\nReport for loading 1:\n--------------------\n");
 		load1.report();
-		System.out.println("\n\nReport for server 2:\n--------------------\n");
+		System.out.println("\n\nReport for loading 2:\n--------------------\n");
 		load2.report();
+		System.out.println("\n\nReport for scale:\n--------------------\n");
+		scale.report();
 		System.out.println("\n\nTime simulation ended = "+ (scale.sim_time) +"\n");
 	}
 	 
