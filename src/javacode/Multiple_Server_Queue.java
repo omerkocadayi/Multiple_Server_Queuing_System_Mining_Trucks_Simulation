@@ -44,11 +44,11 @@ public class Multiple_Server_Queue{
 			
 		}
 		
-		System.out.println("\t*** Server1 - Loading Area 1 - Rapor :\n\t------------------------------");
+		System.out.println("\t*** Server1 - Loading Area 1 - Report :\n\t------------------------------");
 		load1.report();
-		System.out.println("\t------------------------------\n\t*** Server2 - Loading Area 2 - Rapor :\n\t------------------------------");
+		System.out.println("\t------------------------------\n\t*** Server2 - Loading Area 2 - Report :\n\t------------------------------");
 		load2.report();
-		System.out.println("\t------------------------------\n\t*** Server3 - Scale Area - Rapor :\n\t------------------------------");
+		System.out.println("\t------------------------------\n\t*** Server3 - Scale Area - Report :\n\t------------------------------");
 		scale.report();
 		System.out.println("\t*** The simulation took "+ df.format(scale.sim_time) +" minutes !!\n");
 	}
