@@ -105,7 +105,7 @@ public class Server
 		System.out.println( "\tTotal truck uses this server = " + num_custs_delayed );
 		System.out.println( "\tAverage delay in queue = " + total_of_delays / num_custs_delayed );
 		System.out.println( "\tAverage number in queue  = " + area_num_in_q / sim_time );
-		System.out.println( "\tTotal time in this server  = " + df.format(area_server_status) + " dakika");
+		System.out.println( "\tTotal time in this server  = " + df.format(area_server_status) + " minutes");
 		System.out.println( "\tServer utilization  = " + area_server_status / sim_time + "\n");
 		
 	}
